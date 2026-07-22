@@ -4,7 +4,6 @@ OpenChatBI is an open source, chat-based intelligent BI tool powered by large la
 query, analyze, and visualize data through natural language conversations. Built on LangGraph and LangChain ecosystem, 
 it provides chat agents and workflows that support natural language to SQL conversion and streamlined data analysis.
 
-Join the Slack channel to discuss: [Invitation Link To Join](https://join.slack.com/t/openchatbicommunity/shared_invite/zt-40o5ncq8k-fMU61eUg87m8JhrCIBOV8A)
 
 <img src="https://github.com/zhongyu09/openchatbi/raw/main/example/demo.gif" alt="Demo" width="800">
 
@@ -884,20 +883,4 @@ Install pre-commit hooks for automatic code quality checks:
 uv run pre-commit install
 ```
 
-## Contribution Guidelines
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Contact & Support
-
-- **Author**: Yu Zhong ([zhongyu8@gmail.com](mailto:zhongyu8@gmail.com))
-- **Repository**: [github.com/zhongyu09/openchatbi](https://github.com/zhongyu09/openchatbi)
-- **Issues**: [Report bugs and feature requests](https://github.com/zhongyu09/openchatbi/issues)
