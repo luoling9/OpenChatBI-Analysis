@@ -1,0 +1,151 @@
+# ===================== Python 通用编译缓存 =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展文件
+*.so
+
+# ===================== 打包、发布产物 =====================
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+develop-eggs/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# PyInstaller打包文件
+*.manifest
+*.spec
+
+# pip日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===================== 测试 & 覆盖率报告 =====================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ===================== 文档构建产物 =====================
+docs/_build/
+/site
+
+# ===================== 类型检查、代码工具缓存 =====================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ===================== Jupyter / IPython =====================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ===================== 虚拟环境 =====================
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+.pixi
+.pdm-python
+.pdm-build/
+
+# ===================== 框架杂项 =====================
+# Flask
+instance/
+.webassets-cache
+# Scrapy
+.scrapy
+# Celery
+celerybeat-schedule
+celerybeat.pid
+# Django
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+*.log
+# 翻译文件
+*.mo
+*.pot
+
+# ===================== 编辑器IDE文件 =====================
+# PyCharm
+# .idea/
+# VSCode
+# .vscode/
+# Spyder
+.spyderproject
+.spyproject
+# Rope
+.ropeproject
+# Cursor
+.cursor
+.cursorignore
+.cursorindexingignore
+.claude
+# Marimo
+__marimo__/
+marimo/_static/
+marimo/_lsp/
+
+# ===================== 其他工具配置缓存 =====================
+.abstra/
+.pypirc
+*.sage.py
+
+# =====================【项目专属】最重要！=====================
+# 本地数据库缓存
+memory.db
+checkpoints.*
+*.db-shm
+*.db-wal
+
+# 向量数据库
+chroma_db_new/
+
+# 本地模型文件夹（体积巨大严禁上传）
+hf_model/
+timeseries_forecasting/hf_model/
+
+# 数据集文件夹
+data/
+
+# 运行输出目录
+runledger_out/
+
+# 项目本地缓存目录
+specs/
+openspec
+.specify
+
+# 真实配置文件（存放密钥，不要上传！）
+openchatbi/config.yaml

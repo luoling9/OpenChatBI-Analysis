@@ -1,0 +1,56 @@
+organization: MyCompany
+dialect: sqlite
+bi_config_file: example/bi.yaml
+
+# SQL Execution Result Limit Configuration
+enable_sql_result_limit: true
+sql_result_limit: 10000
+
+python_executor: local    # 没有Docker保持local
+
+# Visualization configuration
+visualization_mode: llm
+
+# Catalog store configuration
+catalog_store:
+  store_type: file_system
+  data_path: ./example
+
+# Data warehouse configuration
+data_warehouse_config:
+  # sqlite from spider->tracking_orders dataset
+  uri: "sqlite:///example/tracking_orders.sqlite"
+  database_name: ""
+
+# LLM configurations
+default_llm: zhipu.default_llm
+
+llm_providers:
+  zhipu:
+    default_llm:
+      # 智谱 API 兼容 OpenAI 接口
+      class: langchain_openai.ChatOpenAI
+      params:
+        # 填写你的真实 API Key
+        api_key: ""
+        # 智谱API地址：https://open.bigmodel.cn/api/paas/v4/
+        base_url: ""
+        # 模型名字，例如 glm-4-flash
+        model: ""
+        temperature: 0.1
+
+#embedding_model:
+#  class: langchain_openai.OpenAIEmbeddings
+#  params:
+#    api_key: YOUR_API_KEY_HERE
+#    model: text-embedding-3-large
+#    chunk_size: 1024
+
+# If you cannot access to OpenAI or other cloud LLM provider,
+# uncomment the following lines instead to use Ollama local LLM
+#default_llm:
+#  class: langchain_ollama.ChatOllama
+#  params:
+#    model: gpt-oss:20b
+#    temperature: 0.01
+#    num_predict: 8192

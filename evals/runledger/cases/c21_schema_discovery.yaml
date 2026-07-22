@@ -1,0 +1,5 @@
+id: c21_schema_discovery
+description: "schema discovery for daily order count"
+input:
+  prompt: "Find tables related to daily order count and order date"
+cassette: cassettes/c21_schema_discovery.jsonl
