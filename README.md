@@ -6,6 +6,15 @@ it provides chat agents and workflows that support natural language to SQL conve
 
 
 <img src="https://github.com/zhongyu09/openchatbi/raw/main/example/demo.gif" alt="Demo" width="800">
+系统架构图
+<img width="1244" height="484" alt="系统整体架构" src="https://github.com/user-attachments/assets/56fc439c-6659-48f5-9e38-751b1dfaa80f" />
+Text2SQL 流程图
+<img width="420" height="677" alt="Text2SQL 流程" src="https://github.com/user-attachments/assets/c0f91dbf-3ba3-4143-8ec0-54a1ae04ae43" />
+Analysis Agent 架构图
+<img width="994" height="692" alt="Analysis Agent 架构" src="https://github.com/user-attachments/assets/2a4d3cce-f847-4b3a-a11d-98f47c5ce96e" />
+
+
+
 
 ## Core Features
 
